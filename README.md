@@ -1,21 +1,20 @@
 # AdviceHealth
 
-Nork-Town is a weird place. Crows cawk the misty morning while old men squint. 
-It’s a small town, so the mayor had a bright idea to limit the number of cars a person may possess. 
-One person may have up to 3 vehicles. 
-The vehicle, registered to a person, may have one color, ‘yellow’, ‘blue’ or ‘gray’. 
-And one of three models, ‘hatch’, ‘sedan’ or ‘convertible’.
+Nork-Town é um lugar estranho. Corvos grasnam na manhã enevoada enquanto os velhos apertam os olhos.
+É uma cidade pequena, então o prefeito teve uma ideia brilhante de limitar o número de carros que uma pessoa pode possuir.
+Uma pessoa pode ter até 3 veículos.
+O veículo, registrado para uma pessoa, pode ter uma cor, 'amarelo', 'azul' ou 'cinza'.
+E um dos três modelos, 'hatch', 'sedan' ou 'conversível'.
 
-Carford car shop want a system where they can add car owners and cars. 
-Car owners may not have cars yet, they need to be marked as a sale opportunity. 
-Cars cannot exist in the system without owners.
+A loja de carros Carford quer um sistema onde eles possam adicionar proprietários de carros e carros.
+Os proprietários de carros podem ainda não ter carros, eles precisam ser marcados como uma oportunidade de venda.
+Carros não podem existir no sistema sem proprietários.
 
 
 
-RN: 
-  - Uma pessoa pode possuir no maximo 3 veiculos.
-  - Uma pessoa deve ser marcada como oportunidade de venda quando nao possuir veiculos.
-  
+Rules: 
+  - Uma pessoa pode possuir no máximo 3 veiculos.
+  - Uma pessoa deve ser marcada como oportunidade de venda quando não possuir veiculos.
   - Veiculos devem possuir um proprietario.
   - Os veiculos devem possuir as cores ‘yellow’, ‘blue’ ou ‘gray’.
   - Os veiculos devem ser dos tipos ‘hatch’, ‘sedan’ ou ‘convertible’.
@@ -24,13 +23,13 @@ RN:
 
 Casos de Teste:
 
-1. Acessar Pessoas
+1. Pessoas
   1. Realizar a inclusao de pessoas.
   2. Pode ser realizada a alteracao do nome da pessoa.
   3. É possivel excluir uma pessoa, independente se ela possui veiculos ou nao.
   4. O status de comprador é condicinado para quando a pessoa possuir menos que três veiculos.
   
-2. Acessar Carros.
+2. Carros.
   1. Somente é possivel realizar a inclusao de um veiculo relacionando a um proprietario.
   2. É possivel realizar a alteracao do nome, cor e/ou tipo do veiculo.
   3. É possivel excluir um veiculo relacionado a pessoa.
